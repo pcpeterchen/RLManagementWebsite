@@ -38,7 +38,7 @@ body {
 	height: 100%;
 	background: rgba(0, 0, 0, 0.6);
 	display: table-row;  
-	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
+	text-shadow: 0px 0px 12px rgba(0, 0, 0, .5);
 }
 
 /* Final container for containing the page content, applies padding to the content */
@@ -50,15 +50,19 @@ body {
 /* A bit of resizing of the main content items */
 h1 {
 	font-size: 3em;
+	color: white;
 }
 h2 {
 	font-size: 1.5em;
+	color: white;
 }
 p {
 	font-size: 1.5em;
+	color: white;
 }
 p {
 	font-size: 1.5em;
+	color: white;
 }
 
 /* Styling for social icons */
