@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>R and L Management</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="description" content="R and L Management ">
+  <meta name="author" content="Peter Chen">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <script type="text/javascript">
+  var image1 = new Image()
+  image1.src = "images/dog-pants-debate.jpg"
+  var image2 = new Image()
+  image2.src = "images/dog1.jpg"
+  var image3 = new Image()
+  image3.src = "images/dog2.mp4"
+  </script>
+
+</head>
+<body>
+  <div class="container">
+	<div class="inner">
+  <div class="content">
+	  <h1>R & L Management</h1>
+	  <h2>Student Housing Solutions</h2>
+	  <p><img src="images/dog3.jpg" width="500" height="300" name="slide" /></p>
+	  <script type="text/javascript">
+	  var step=1;
+	  function slideit()
+	  {
+	  	document.images.slide.src = eval("image"+step+".src");
+	  	if(step<2)
+	  		step++;
+	  	else
+	  		step=1;
+	  	setTimeout("slideit()",2500);
+	  }
+	  slideit();
+	  </script>
+	  <p>
+	      Since 1994, management company has been providing quality homes for students and residents in beautiful Moragantown, WV.  It is our goal to provide afforable housing at killer prices in the best locations.  We strive to bring excellence into the community with our homes, please contact us today.
+	  </p>
+	  <p> Check out galleries of our properites here. </p>
+	  <a href="http://flikr.com"><i class="fa fa-camera fa-4x"></i></a>
+	</div>
+  </div>
+  </div>
+</body>
+</html>
