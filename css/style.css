@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/background.jpg') no-repeat center center fixed;
+    background: url('https://www.lawnstarter.com/blog/wp-content/uploads/2015/10/morgantown-wv.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -81,7 +81,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.8);
 }
 
 .intro-text {
@@ -140,10 +140,10 @@ footer p {
         margin: 0;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-shadow: 3px 3px 5px black;
         text-transform: uppercase;
-        font-size: 1.25em;
-        font-weight: 400;
+        font-size: 2em;
+        font-weight: 700;
         letter-spacing: 3px;
         color: #fff;
     }
@@ -163,7 +163,7 @@ footer p {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba(255,255,255,0.9);
+        background: rgba(255,255,255,0.8);
     }
 
     .nav>li>a {
