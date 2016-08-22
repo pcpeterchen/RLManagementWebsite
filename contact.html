@@ -33,7 +33,7 @@
 <body>
 
     <div class="brand">R&L Management</div>
-    <div class="address-bar">3025 Greystone Drive | Morgantown, WV 26508 | 304.594.1371</div>
+    <div class="address-bar">3025 Greystone Drive | Morgantown, WV 26508 | 304.594.3817 | RLRental@yahoo.com</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
@@ -83,14 +83,14 @@
                     <hr>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-responsive img-border-right" src="img/dog4.jpg" alt="">
+                    <img class="img-responsive img-border-right" src="img/contactus.jpg" alt="">
                 </div>
                 <div class="col-md-4">
                     <p>Phone:
-                        <strong>304.594.1371</strong>
+                        <strong>304.594.3817</strong>
                     </p>
                     <p>Email:
-                        <strong><a href="mailto:name@example.com">RLRentals@Yahoo.com</a></strong>
+                        <strong><a href="mailto:name@example.com">RLRental@Yahoo.com</a></strong>
                     </p>
                     <p>Address:
                         <strong>3025 Greystone Drive
@@ -98,13 +98,13 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-responsive img-border-left" src="img/dog4b.jpg" alt="">
+                    <img class="img-responsive img-border-left" src="img/contactus2.jpg" alt="">
                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
 <!-- Contact Form -->
-        <div class="row">
+        <!-- <div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
@@ -113,28 +113,33 @@
                     </h2>
                     <hr>
                     <p>Please send us a message if you are interested in meeting for a property showing. Leave your email address and phone number and we'll be in contact soon.</p>
-                    <form role="form">
-                        <div class="row">
-                            <div class="form-group col-lg-4">
-                                <label>Name</label>
-                                <input type="text" class="form-control">
+                    <form class="form-horizontal" role="form" method="post" action="sendmail.php">
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
                             </div>
-                            <div class="form-group col-lg-4">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
                             </div>
-                            <div class="form-group col-lg-4">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="col-sm-2 control-label">Message</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" rows="4" name="message"></textarea>
                             </div>
-                            <div class="clearfix"></div>
-                            <div class="form-group col-lg-12">
-                                <label>Message</label>
-                                <textarea class="form-control" rows="6"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
                             </div>
-                            <div class="form-group col-lg-12">
-                                <input type="hidden" name="save" value="contact">
-                                <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <! Will be used to display an alert to the user>
                             </div>
                         </div>
                     </form>
@@ -142,7 +147,7 @@
             </div>
         </div>
 
-    </div>
+    </div> -->
     <!-- /.container -->
 
     <footer>
